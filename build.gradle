@@ -6,7 +6,6 @@
  * For more details take a look at the Java Quickstart chapter in the Gradle
  * user guide available at https://docs.gradle.org/2.10/userguide/tutorial_java_projects.html
  */
-
 /*
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
@@ -30,7 +29,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 */
-
 buildscript {
     repositories {
         jcenter()
@@ -45,9 +43,11 @@ buildscript {
         compile 'pub.devrel:easypermissions:0.2.1'*/
     }
 }
-
 allprojects {
     repositories {
         jcenter()
     }
+}
+
+dependencies {
 }
