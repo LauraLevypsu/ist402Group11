@@ -7,6 +7,6 @@ public class Main {
     public Main(){
         int x = 3;
 
-        x+=5;
+        x+=7;
     }
 }
