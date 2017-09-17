@@ -4,8 +4,14 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/bToAccount"
+        android:id="@+id/bToLikedSongs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Account" />
+        android:text="liked songs"/>
+
+    <Button
+        android:id="@+id/bRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="make a request"/>
 </LinearLayout>
