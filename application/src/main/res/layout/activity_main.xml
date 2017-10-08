@@ -5,7 +5,12 @@
 
     <Button
         android:id="@+id/bToAccount"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Account" />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Account" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
