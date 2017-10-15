@@ -9,5 +9,4 @@
         android:layout_height="wrap_content"
         android:text="liked songs"/>
 
-    <!-- this is our listview where we will display the fetched data -->
-</RelativeLayout>
+    </RelativeLayout>

@@ -15,6 +15,7 @@ import com.example.good_morning.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.opencv.android.OpenCVLoader;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -57,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
         lv = (ListView) findViewById(R.id.list);
 
         new GetUsers().execute();
+
+        if (!OpenCVLoader.initDebug()) {
+            Log.e(this.getClass().getSimpleName(), "  OpenCVLoader.initDebug(), not working.");
+        } else {
+            Log.d(this.getClass().getSimpleName(), "  OpenCVLoader.initDebug(), working.");
+        }
     }
 
     /**

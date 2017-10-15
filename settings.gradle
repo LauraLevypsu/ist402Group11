@@ -19,3 +19,4 @@ include 'services:webservice'
 */
 
 rootProject.name = 'ist402Group11'
+include ':openCVLibrary330'
